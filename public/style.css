@@ -1,0 +1,27 @@
+/* public/style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#videoContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#videoPlayer {
+    width: 100%;
+}
+
+#promoPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    z-index: 9999;
+}
